@@ -1,7 +1,7 @@
 # ETL: The Joy of Coding
 
 ## Resources
-#### - Bob Ross Episode Data CSV
+### - Bob Ross Episode Data CSV
 Link: https://github.com/fivethirtyeight/data/blob/master/bob-ross/elements-by-episode.csv
  
 ### - Bob Ross Paint Color Details CSV 
