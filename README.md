@@ -22,3 +22,19 @@ This will be useful for viewers who wish to watch specific items get painted
 Color Palette
 This will be useful for viewers who wish to watch specific colors being used in a painting
 Your local broadcasting station has already done some leg work to gather data, however it is spread out across multiple different files and formats, which makes the data unusable in its current form. They’ve also already hired another team to build a front-end to allow their viewers to filter episodes of The Joy of Painting and now they’ve hired you to help them with the process of designing and building a database that will house this collected data in a way that is usable and also build an API to access it.
+
+# UML Database Design
+The database will have the following tables:
+
+- Episodes: Stores information about each episode.
+- Seasons: Stores information about each season.
+- Paintings: Details of paintings featured in each episode.
+- Colors: A list of colors used in each painting.
+- Guests: Information on guest appearances.
+
+### Relationships:
+
+- Each Episode belongs to a Season.
+- Each Episode features one Painting.
+- Each Painting can use multiple Colors. (Many-to-Many relationship between Paintings and Colors, requiring a join table)
+- An Episode may feature multiple Guests. (Many-to-Many relationship between Episodes and Guests, requiring a join table)
