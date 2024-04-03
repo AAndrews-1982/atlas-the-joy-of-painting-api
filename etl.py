@@ -12,7 +12,7 @@ def extract_data():
     # Paths to CSV files
     episodes_path = 'ColorsUsed.csv'  # Assuming a typo in the file naming; adjust as needed.
     colors_path = 'SubjectMatter.csv'  # Assuming a typo in the file naming; adjust as needed.
-    guests_path = 'EpisodeDates.csv'   # Adjust path/filename as needed.
+    guests_path = 'Episode.csv'  # Adjust path/filename as needed.
 
     # Read CSV files into pandas DataFrames
     episodes_df = pd.read_csv(episodes_path)
